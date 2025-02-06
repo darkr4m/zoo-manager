@@ -34,3 +34,27 @@ Classes:
     ReptileEnclosure - class
         repriles - [Reptile] - list of reptile instances
 """
+
+class Animal:
+    pass
+
+class Mammal(Animal):
+    pass
+
+class Bird(Animal):
+    pass
+
+class Reptile(Animal):
+    pass
+
+class Primate(Mammal):
+    pass
+
+class Marsupial(Mammal):
+    pass
+
+class Aviary:
+    pass
+
+class ReptileEnclosure:
+    pass
